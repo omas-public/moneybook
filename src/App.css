@@ -1,22 +1,21 @@
-.App {
-  text-align: center;
+.book {
+  border-collapse:collapse;
+  width:300px;
 }
-
-.App-logo {
-  height: 40vmin;
+.book tr > th, .book tr > td {
+  border: solid 1px black;
+  padding:1px 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.entry {
+  margin-top:20px;
+  width:300px;
 }
-
-.App-link {
-  color: #09d3ac;
+.entry input[type="submit"] {
+  margin-top:10px;
+  width:60px;
+  font-size:120px;
+}
+.entry input[type="redio"] {
+  margin-left:40px;
+  margin-bottom:10px;
 }
